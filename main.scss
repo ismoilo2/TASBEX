@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 300px;
+        height: 400px;
+        border-radius: 14px;
+		filter: drop-shadow(0 0 5px 10px rgba(255, 255, 255, 0.687));
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.721), 0 0 8px rgba(255, 255, 255, 0.609), 0 0 13px rgba(255, 255, 255, 0.524), 0 0 18px rgba(255, 255, 255, 0.458);
+        h1{
+            font-size: 28px;
+            color: antiquewhite;
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            margin-top: -33px;
+            margin-left: 250px;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.871), 0 0 15px rgba(255, 255, 255, 0.622);
+        }
+        .number{
+            margin: 50px 0px 0px 219px;
+        }
+        button{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: rgb(127, 212, 127);
+			margin: 150px 0px 0 100px;
+            box-shadow: 0 0 8px 6px rgb(127, 212, 127);
+            filter: drop-shadow( 0 0 8px black );
+            border: none;
+        }
+        .btn2{
+            width: 50px;
+            height: 50px;
+            margin-top: 150px;
+            margin-left: 30px;
+        }
+        .liniya{
+            width: 130px;
+            height: 130px;
+            box-shadow: 0 0 8px 6px white, 0 0 10px 8px rgba(255, 255, 255, 0.339);
+            margin-top: -127.5px;
+            margin-left: 97.5px;
+            border-radius: 50%;
+        }
+        .liniya2{
+            width: 60px;
+            height: 60px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-top: -57.5px;
+            margin-left: 26px;
+            box-shadow: 0 0 4px 2px white, 0 0 6px 4px rgba(255, 255, 255, 0.339);
+        }
+        h2{
+            font-size: 18px;
+            color: white;
+            font-weight: 400;
+            font-style: normal;
+            font-family: sans-serif;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.888) , 0 0 15px rgba(255, 255, 255, 0.796);
+            margin-top: -350px;
+            margin-left: 15px;
+        }
+        .number2{
+            margin-top: -20px;
+            margin-left: 78px;
+        }
+    }
+}
